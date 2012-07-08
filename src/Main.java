@@ -20,7 +20,7 @@ public class Main {
 
 		
 		final Sequencer sequencer;
-		File midi = new File("./sound/tam-n13.mid");
+		File midi = new File("tam-n13.mid");
 		try{
 		  Sequence s = MidiSystem.getSequence(midi);
 		  sequencer  = MidiSystem.getSequencer();

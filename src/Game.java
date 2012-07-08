@@ -8,11 +8,11 @@ public class Game {
 	
 	public void click(JButton button, JLabel lblPlayer) {
 		if(turn) {
-			lblPlayer.setText("./icons/player2");
-			button.setIcon(new ImageIcon("./icons/42.png"));	
+			lblPlayer.setText("player2");
+			button.setIcon(new ImageIcon("42.png"));	
 		}
 		else {
-			button.setIcon(new ImageIcon("./icons/58.png"));
+			button.setIcon(new ImageIcon("58.png"));
 			lblPlayer.setText("player1");
 		}
 		

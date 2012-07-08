@@ -75,7 +75,7 @@ public class FrmMain extends JFrame {
 		contentPane.add(panel, BorderLayout.CENTER);
 		
 		button_1 = new JButton("");
-		button_1.setIcon(new ImageIcon("./icons/39.png"));
+		button_1.setIcon(new ImageIcon("39.png"));
 		
 		button_1.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
@@ -87,7 +87,7 @@ public class FrmMain extends JFrame {
 		panel.add(button_1);
 		
 		button = new JButton("");
-		button.setIcon(new ImageIcon("./icons/39.png"));
+		button.setIcon(new ImageIcon("39.png"));
 		button.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
 				game.click(button, lblPlayer);
@@ -98,7 +98,7 @@ public class FrmMain extends JFrame {
 		panel.add(button);
 		
 		btnNewButton = new JButton("");
-		btnNewButton.setIcon(new ImageIcon("./icons/39.png"));
+		btnNewButton.setIcon(new ImageIcon("39.png"));
 		btnNewButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				
@@ -111,7 +111,7 @@ public class FrmMain extends JFrame {
 		
 		button_3 = new JButton("");
 		button_3.setForeground(Color.BLACK);
-		button_3.setIcon(new ImageIcon("./icons/39.png"));
+		button_3.setIcon(new ImageIcon("39.png"));
 		button_3.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				game.click(button_3, lblPlayer);
@@ -122,7 +122,7 @@ public class FrmMain extends JFrame {
 		panel.add(button_3);
 		
 		button_5 = new JButton("");
-		button_5.setIcon(new ImageIcon("./icons/39.png"));
+		button_5.setIcon(new ImageIcon("39.png"));
 		button_5.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				game.click(button_5, lblPlayer);
@@ -133,7 +133,7 @@ public class FrmMain extends JFrame {
 		panel.add(button_5);
 		
 		button_4 = new JButton("");
-		button_4.setIcon(new ImageIcon("./icons/39.png"));
+		button_4.setIcon(new ImageIcon("39.png"));
 		button_4.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				
@@ -145,7 +145,7 @@ public class FrmMain extends JFrame {
 		panel.add(button_4);
 		
 		button_7 = new JButton("");
-		button_7.setIcon(new ImageIcon("./icons/39.png"));
+		button_7.setIcon(new ImageIcon("39.png"));
 		button_7.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				
@@ -157,7 +157,7 @@ public class FrmMain extends JFrame {
 		panel.add(button_7);
 		
 		button_6 = new JButton("");
-		button_6.setIcon(new ImageIcon("./icons/39.png"));
+		button_6.setIcon(new ImageIcon("39.png"));
 		button_6.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				
@@ -169,7 +169,7 @@ public class FrmMain extends JFrame {
 		panel.add(button_6);
 		
 		button_2 = new JButton("");
-		button_2.setIcon(new ImageIcon("./icons/39.png"));
+		button_2.setIcon(new ImageIcon("39.png"));
 		button_2.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				
@@ -193,15 +193,15 @@ public class FrmMain extends JFrame {
 		button_8 = new JButton("\u30EA\u30BB\u30C3\u30C8");
 		button_8.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				button_1.setIcon(new ImageIcon("./icons/39.png"));
-				button.setIcon(new ImageIcon("./icons/39.png"));
-				btnNewButton.setIcon(new ImageIcon("./icons/39.png"));
-				button_3.setIcon(new ImageIcon("./icons/39.png"));
-				button_5.setIcon(new ImageIcon("./icons/39.png"));
-				button_4.setIcon(new ImageIcon("./icons/39.png"));
-				button_7.setIcon(new ImageIcon("./icons/39.png"));
-				button_6.setIcon(new ImageIcon("./icons/39.png"));
-				button_2.setIcon(new ImageIcon("./icons/39.png"));
+				button_1.setIcon(new ImageIcon("39.png"));
+				button.setIcon(new ImageIcon("39.png"));
+				btnNewButton.setIcon(new ImageIcon("39.png"));
+				button_3.setIcon(new ImageIcon("39.png"));
+				button_5.setIcon(new ImageIcon("39.png"));
+				button_4.setIcon(new ImageIcon("39.png"));
+				button_7.setIcon(new ImageIcon("39.png"));
+				button_6.setIcon(new ImageIcon("39.png"));
+				button_2.setIcon(new ImageIcon("39.png"));
 				game.turn = true;
 				lblPlayer.setText("player1");
 				
